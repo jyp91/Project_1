@@ -12,10 +12,10 @@ The participation rate for ACT shows negative skew whereas SAT shows positive sk
 **A/B Test:**
 The hypothesis test that compares the SAT and ACT participation rates as follows.
 
-**H0:μSATParticipation=μACTParticipation
-HA:μSATParticipation≠μACTParticipation**
+$H_0: \mu SAT Participation = \mu ACT Participation$
+$H_A: \mu SAT Participation \neq \mu ACT Participation$
 
-Based on the A/B test result by using scipy stats model, pvalue was equal to 0.000241342036.  This result can be concluded by rejecting the null hypothesis since the pvalue is less than alpha (α=0.05).
+Based on the A/B test result by using scipy stats model, pvalue was equal to 0.000241342036.  This result can be concluded by rejecting the null hypothesis since the pvalue is less than alpha ($\alpha = 0.05$).
 Also,  with 95% confidence intervals for SAT and ACT participation rates are in between -31.05 and 110.66 for SAT and  0.69 to 129.81 for ACT.
 
 **Conclusion:**
